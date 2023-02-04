@@ -1,9 +1,10 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+body{
+    background-color: #fafafa;
 }
 
 #navbar-up {
     margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -131,9 +132,10 @@ body {
 #navbar-down {
     background-color: #3C3F42;
     opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
 
     .catalog {
-       
+
         padding: 20px;
         background-color: #232222;
 
@@ -166,9 +168,9 @@ body {
 
 
     input {
-        
 
-    margin-top: 11px;
+
+        margin-top: 11px;
         padding-left: 10px;
         width: 800px;
 
@@ -186,41 +188,45 @@ body {
         position: absolute;
         right: 5px;
         border: none;
-        
 
-    margin-top: 15px;
+
+        margin-top: 15px;
 
     }
 
     .register {
-        margin-left:20px;
-        
+        margin-left: 20px;
+
         margin-top: 1px;
 
         display: flex;
         justify-content: center;
         align-items: center;
-        ul{
-            
-            display:flex;
-            li{
-                &:nth-child(1){
+
+        ul {
+
+            display: flex;
+
+            li {
+                &:nth-child(1) {
                     margin: 6px;
                 }
+
                 margin:10px;
                 list-style: none;
+
                 a {
-           
+
                     text-decoration: none;
-        
+
                     i {
-        
-                       
-                       margin-top:15px;
+
+
+                        margin-top: 15px;
                         font-size: 20px;
                         color: white;
                     }
-        
+
                     span {
                         margin-top: 5px;
                         font-size: 17px;
@@ -229,44 +235,93 @@ body {
                 }
             }
         }
-        
-    
+
+
     }
-    
-    
+
+
 }
-#slider{
-    .menu{
-        ul{
-            line-height: ;
-            li{
-                ma
-                list-style:none;
-                a{
-                    text-decoration: none;
-                    color:black;
-                    .ic{
-                        font-size: 15px;
-                        color:#232222;
+
+#slider {
+    .menues {
+        
+        margin-top: 20px;
+        margin-left: 75px;
+
+        .menu {
+            margin-left: 25px;
+            width: 305p
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
+            border-radius: 0 0 4px 4px;
+            ul {
+
+                padding: 4px;
+                li {
+
+                    margin: 10px;
+
+                    list-style: none;
+
+                    a {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+
+                        text-decoration: none;
+
+
+                        .ic {
+
+                            font-size: 14px;
+                            color: #232222;
+                        }
+
+                        .big {
+
+                            color: black;
+                            font-size: 10px;
+                        }
+
+
+
+
                     }
 
-                    
+
+
+
+                    span {
+                        flex: auto;
+                        font-size: 14px;
+                        color: #232222;
+                    }
+
+                    .span1 {
+                        color: red;
+                    }
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+
                 }
 
-                span{
-                    font-size: 14px;
-                    color:#232222;
-                }
-                .span1{
-                    color:red;
-                }
-                img{
-                    width: 20px;
-                    height: 20px;
-                }
-                
             }
-            
         }
     }
+
+    .photo {
+        
+        
+         margin-top: 37px;
+
+        img {
+            width: 952;
+            height: 490px;
+        }
+    }
+
 }
