@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #fafafa;
 }
 
@@ -154,7 +154,7 @@ body{
     }
 
     .search-box {
-        width: 570px;
+        width: 573px;
 
 
         display: flex;
@@ -169,16 +169,17 @@ body{
 
     input {
 
-
+        margin-left: -14px;
         margin-top: 11px;
         padding-left: 10px;
-        width: 800px;
+        width: 590px;
 
         border-radius: 5px;
         border: none;
 
         height: 41px;
         outline: none;
+        color: #504949;
 
     }
 
@@ -195,7 +196,10 @@ body{
     }
 
     .register {
-        margin-left: 20px;
+        
+            padding-top: 2px;
+         
+    margin-left: 58px;
 
         margin-top: 1px;
 
@@ -208,11 +212,14 @@ body{
             display: flex;
 
             li {
+                margin: 9px;
+
+
                 &:nth-child(1) {
                     margin: 6px;
                 }
-
-                margin:10px;
+ 
+              
                 list-style: none;
 
                 a {
@@ -221,7 +228,7 @@ body{
 
                     i {
 
-
+                      
                         margin-top: 15px;
                         font-size: 20px;
                         color: white;
@@ -244,84 +251,94 @@ body{
 
 #slider {
     .menues {
-        
+
         margin-top: 20px;
         margin-left: 75px;
 
         .menu {
+
             margin-left: 25px;
-            width: 305p
+            width: 303px;
             background-color: #fff;
             box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
             border-radius: 0 0 4px 4px;
-            ul {
+        }
 
-                padding: 4px;
-                li {
+       
 
-                    margin: 10px;
+        ul {
 
-                    list-style: none;
+            padding: 4px;
 
-                    a {
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
+            li {
 
+                margin: 10px;
 
-                        text-decoration: none;
+                list-style: none;
 
-
-                        .ic {
-
-                            font-size: 14px;
-                            color: #232222;
-                        }
-
-                        .big {
-
-                            color: black;
-                            font-size: 10px;
-                        }
+                a {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
 
 
+                    text-decoration: none;
 
 
-                    }
+                    .ic {
 
-
-
-
-                    span {
-                        flex: auto;
                         font-size: 14px;
                         color: #232222;
                     }
 
-                    .span1 {
-                        color: red;
+                    .big {
+
+                        color: black;
+                        font-size: 10px;
                     }
 
-                    img {
-                        width: 20px;
-                        height: 20px;
-                    }
+
+
 
                 }
 
+
+
+
+                span {
+                    flex: auto;
+                    font-size: 14px;
+                    color: #232222;
+                }
+
+                .span1 {
+                    color: red;
+                }
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+
             }
+
         }
     }
-
-    .photo {
-        
-        
-         margin-top: 37px;
-
-        img {
-            width: 952;
-            height: 490px;
-        }
-    }
-
 }
+
+.photo {
+
+
+
+    margin-left: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
+    border-radius: 0 0 4px 4px;
+   
+
+    img {
+        width: 100%;
+        height: 490px;
+    }
+}
+
